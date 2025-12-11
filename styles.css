@@ -106,3 +106,59 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+.project-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2em;
+  max-width: 1100px;
+  margin: 2em auto;
+  padding: 1em;
+}
+
+.project-card {
+  background: #e7ddf7;
+  padding: 1.5em;
+  border-radius: 12px;
+  border-left: 6px solid #6f19c5;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.12);
+  text-align: left;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* CARD HOVER EFFECT */
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.18);
+}
+
+/* PROJECT TITLES */
+.project-card h3 {
+  margin-top: 0;
+  color: #2f1a4f;
+  text-align: left;
+}
+
+/* PROJECT DESCRIPTION */
+.project-card p {
+  text-align: left;
+  margin-bottom: 1em;
+  max-width: 100%;
+}
+
+/* PROJECT LINKS (BUTTON STYLE) */
+.project-link {
+  display: inline-block;
+  background: #6f19c5;
+  color: white;
+  padding: 0.6em 1em;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+/* HOVER EFFECT FOR BUTTONS */
+.project-link:hover {
+  background: #4a0f8e;
+  transform: translateY(-2px);
+}
