@@ -115,7 +115,6 @@ footer a:hover {
   padding: 1em;
 }
 
-/* PROJECTS SECTION LAYOUT */
 .project-section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -125,7 +124,6 @@ footer a:hover {
   margin: 0 auto;
 }
 
-/* INDIVIDUAL PROJECT CARD */
 .project-card {
   background: #e7ddf7;
   padding: 1.5em;
@@ -135,21 +133,18 @@ footer a:hover {
   border-left: 6px solid #6f19c5;
 }
 
-/* PROJECT CARD HEADINGS */
 .project-card h3 {
   margin-top: 0;
   color: #3a1a6f;
   font-size: 1.4em;
 }
 
-/* PROJECT CARD PARAGRAPHS */
 .project-card p {
   max-width: 90%;
   margin: 0.8em auto;
   line-height: 1.5;
 }
 
-/* PROJECT LINKS */
 .project-link {
   display: inline-block;
   background: #6f19c5;
